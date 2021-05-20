@@ -1,0 +1,241 @@
+body/*FEEDBACK BODY*/ {
+  font-family: "Georgia", Times New Roman, Times, serif;
+  padding: 0;
+  margin: 2px;
+  background-color: #191919;
+  font-size: 15px;
+  border: 3px solid #98fb98;
+}
+
+.container/*FEEDBACK HEADER*/ {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header
+/*FEEDBACK NAVBAR */ {
+  background-color: darkslategrey;
+
+  color: white;
+  padding-top: 24px;
+  min-height: 60px;
+}
+
+header a,
+.links a/* FEEDBACK HEADER &CATEOGRIES*/ {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.container i/* FEEDBACK BAR-STYLING*/ {
+  font-size: 30px;
+  cursor: pointer;
+  flex: 1;
+  padding-left: 25px;
+}
+/*FEEDBACK HEADER FONT STYLING*/
+.container h1,
+.container p,
+.container i {
+  padding-bottom: 25px;
+}
+/* FEEDBACK HEADER LIST*/
+header ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  list-style: none;
+}
+/*FEEDBACK HEADER ITEMS*/
+header ul li {
+  padding: 10px;
+  padding-bottom: 10px;
+}
+/* FEEDBACK  WORDS COLOURED*/
+.color {
+  color: #98fb98;
+}
+/*FEEDBACK WORDS ON HOVERING*/
+.color:hover {
+  color: #f4f5e2;
+}
+/* FEEDBACK CATEOGRIES & NAV ITEMS ON HOVERING*/
+header a:hover,
+.links a:hover {
+  color: #0f0;
+}
+/* FEEDBACK FEED_HEAD STYLING*/
+.feed_head {
+  background-color: #191919;
+  min-height: 500px;
+  margin-top: -20px;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+/* FEEDBACK FEED_HEAD H1 STYLING*/
+.feed_head h1 {
+  font-size: 43px;
+  color: #98fb98;
+  text-align: center;
+}
+.links/* FEEDBACK BLOG-CATEOGRIES*/ {
+  display: none;
+  list-style: none;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  line-height: 2.5em;
+  width: 30%;
+  height: 600px;
+  background-color: #191919;
+  opacity: 0.8;
+  border: #98fb98 3px solid;
+}
+.links li/* FEEDBACK CATEOGRIES STYLING*/ {
+  border-bottom: 3px solid #98fb98;
+  padding-top: 18px;
+}
+
+/* FEEDBACK BLOG-CONTENT*/
+
+.feed_second {
+  width: 99.9%;
+  padding-top: 100px;
+  background-color: #f18973;
+
+  min-height: 340px;
+  background-image: url("../IMAGES/aero.png");
+  background-size: 340px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.feed_second h3/* FEEDBACK BLOG-CONTENT H3 STYLING */ {
+  margin-bottom: 0px;
+  margin-left: 16px;
+  color: white;
+  font-size: 43px;
+  width: 55%;
+}
+.feed_second p/* FEEDBACK BLOG-CONTENT P STYLING*/ {
+  line-height: 1.5;
+  width: 55%;
+  color: white;
+  font-size: 23px;
+  padding: 10px;
+  padding-bottom: 100px;
+}
+.content-feed-second {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+.footer-feed/* FEEDBACK FOOTER STYLING*/ {
+  padding-top: 1px;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 13px;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: space-between;
+  background-color: darkslategray;
+  min-height: 50x;
+}
+.footer-feed ul/* FEEDBACK FOOTER list*/ {
+  display: flex;
+  list-style: none;
+  column-gap: 8px;
+}
+.footer-feed a/* FEEDBACK FOOTER ITEMS*/ {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.footer-feed h3/* FEEDBACK FOOTER HEADING */ {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+.footer-feed a:hover/* FEEDBACK FOOTER LINKS ON HOVERING */ {
+  color: #98fb98;
+  margin: 15px;
+}
+
+.feed_form/*FEEDBACK FORM TEXTAREA & BUTTON*/ {
+  display: block;
+
+  text-align: left;
+  padding: 4%;
+  background-image: url("..//IMAGES/feed-second.png");
+  background-size: 340px;
+  background-repeat: no-repeat;
+  background-position: right;
+
+  background-color: #187bcd;
+  width: 92%;
+  min-height: 400px;
+}
+
+.feed_form ::placeholder/*FEEDBACK PLACEHOLDER STYLING*/ {
+  color: #371d10;
+  font-weight: bold;
+
+  opacity: 0.4;
+  font-size: 20px;
+}
+.feed_form textarea/*FEEDBACK TEXTAREA STYLING*/ {
+  padding: 15px;
+  font-size: 20px;
+  border: 8px solid #371d10;
+  background-color: #fee227;
+}
+
+.feed_form button/*FEEDBACK BUTTON STYLING*/ {
+  background-color: #710193;
+  font-size: 20px;
+  border: 2px white double;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  transition: 1.5s;
+  color: white;
+}
+.feed_form button:hover/*FEEDBACK BUTTON HOVERING*/ {
+  background-color: #98fb98;
+  border: #710193 double 2px;
+  border-radius: 20px;
+  color: #371d10;
+  font-weight: bold;
+}
+@media (max-width: 800px) {
+  .feed_second/* FEEDBACK BLOG-CONTENT*/ {
+    background-image: none;
+    padding-top: 10px;
+  }
+  .feed_form/*FEEDBACK FORM TEXTAREA & BUTTON*/ {
+    background-image: none;
+    display: block;
+  }
+
+  .links /*FEEDBACK BLOG-CATEOGRIES*/ {
+    height: 625px;
+  }
+  .footer-feed/* FEEDBACK FOOTER STYLING*/ {
+    display: block;
+  }
+  .footer-feed ul/* FEEDBACK FOOTER list*/ {
+    display: block;
+  }
+}

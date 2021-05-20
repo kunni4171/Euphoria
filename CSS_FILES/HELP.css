@@ -1,0 +1,379 @@
+body/*ABOUT US BODY*/ {
+
+    font-family: "Georgia", Times New Roman, Times, serif;
+  
+    padding: 0;
+  
+    margin: 2px;
+  
+    background-color: #191919;
+  
+    font-size: 15px;
+  
+    border: 3px solid #98fb98;
+  
+  }
+  
+  
+  
+  .container/*ABOUT USHEADER*/ {
+  
+    width: 90%;
+  
+    margin: auto;
+  
+    overflow: hidden;
+  
+    min-height: 100px;
+  
+    display: flex;
+  
+    flex-direction: row;
+  
+    align-items: center;
+  
+    justify-content: space-between;
+  
+  }
+  
+  header
+  
+    /*ABOUT USNAVBAR */ {
+  
+    background-color: darkslategrey;
+  
+  
+  
+    color: white;
+  
+    padding-top: 24px;
+  
+    min-height: 60px;
+  
+  }
+  
+  
+  
+  header a,
+  
+    .links a/* ABOUT US HEADER &CATEOGRIES*/ {
+  
+    color: white;
+  
+    text-decoration: none;
+  
+    font-size: 20px;
+  
+  }
+  
+  .container i/* ABOUT US BAR-STYLING*/ {
+  
+    font-size: 30px;
+  
+    cursor: pointer;
+  
+    flex: 1;
+  
+    padding-left: 25px;
+  
+  }
+  
+  /*ABOUT US HEADER FONT STYLING*/
+  
+  .container h1,
+  
+  .container p,
+  
+  .container i {
+  
+    padding-bottom: 25px;
+  
+  }
+  
+  /* ABOUT US HEADER LIST*/
+  
+  header ul {
+  
+    margin: 0px;
+  
+    padding: 0px;
+  
+    display: flex;
+  
+    list-style: none;
+  
+  }
+  
+  /*ABOUT US HEADER ITEMS*/
+  
+  header ul li {
+  
+    padding: 10px;
+  
+    padding-bottom: 10px;
+  
+  }
+  
+  /* ABOUT US  WORDS COLOURED*/
+  
+  .color {
+  
+    color: #98fb98;
+  
+  }
+  
+  /*ABOUT US PAGE WORDS ON HOVERING*/
+  
+  .color:hover {
+  
+    color: #f4f5e2;
+  
+  }
+  
+  /* ABOUT US PAGE CATEOGRIES & NAV ITEMS ON HOVERING*/
+  
+  header a:hover,
+  
+  .links a:hover {
+  
+    color: #0f0;
+  
+  }
+  
+  /* ABOUT US ABOUT_HEAD STYLING*/
+  
+  .ABOUT_head {
+  
+    background-color: #191919;
+  
+    min-height: 500px;
+  
+    margin-top: -20px;
+  
+    padding-top: 35px;
+  
+    padding-bottom: 10px;
+  
+  }
+  
+  /*ABOUT US ABOUT_HEAD H1 STYLING*/
+  
+  .ABOUT_head h1 {
+  
+    font-size: 43px;
+  
+    color: #98fb98;
+  
+    text-align: center;
+  
+  }
+  
+  .links/* ABOUT US PAGE BLOG-CATEOGRIES*/ {
+  
+    display: none;
+  
+    flex-direction: column;
+  
+    position: absolute;
+  
+    top: 0;
+  
+    right: 0;
+  
+    padding: 20px;
+  
+    line-height: 2.5em;
+  
+    width: 30%;
+  
+    height: 600px;
+  
+    background-color: #191919;
+  
+    opacity: 0.8;
+  
+    border: #98fb98 3px solid;
+  
+  }
+  
+  .links li/* ABOUT US CATEOGRIES STYLING*/ {
+  
+    border-bottom: 3px solid #98fb98;
+  
+    padding-top: 18px;
+  
+    list-style: none;
+  
+  }
+  
+  
+  
+  /* ABOUT US CONTENT*/
+  
+  
+  
+  .ABOUT_second {
+  
+    width: 99.9%;
+  
+    padding-top: 100px;
+  
+    background-color: #f18973;
+  
+  
+  
+    min-height: 340px;
+  
+    background-image: url("../IMAGES/HELP_img.png");
+
+    background-size: 400px;
+  
+    background-repeat: no-repeat;
+  
+    background-position: right;
+  
+  }
+  
+  .ABOUT_second h3/* ABOUT US BLOG-CONTENT H3 STYLING */ {
+  
+    margin-bottom: 0px;
+  
+    margin-left: 16px;
+  
+    color: white;
+  
+    font-size: 43px;
+  
+    width: 55%;
+  
+  }
+  
+  .ABOUT_second p/* ABOUT US BLOG-CONTENT P STYLING*/ {
+  
+    line-height: 1.5;
+  
+    width: 55%;
+  
+    color: white;
+  
+    font-size: 23px;
+  
+    padding: 10px;
+  
+    padding-bottom: 100px;
+  
+  }
+  
+  .content-ABOUT-second {
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: flex-start;
+  
+    justify-content: flex-start;
+  
+    padding-left: 30px;
+  
+    margin-top: 20px;
+  
+  }
+  
+  
+  
+  .footer-ABOUT/* ABOUT USFOOTER STYLING*/ {
+  
+    padding-top: 1px;
+  
+    display: flex;
+  
+    align-items: center;
+  
+    padding-top: 20px;
+  
+    padding-bottom: 20px;
+  
+    font-size: 13px;
+  
+    padding-left: 0px;
+  
+    padding-right: 0px;
+  
+    justify-content: space-between;
+  
+    background-color: darkslategray;
+  
+    min-height: 50x;
+  
+  }
+  
+  .footer-ABOUT ul/* ABOUT US FOOTER list*/ {
+  
+    display: flex;
+  
+    column-gap: 8px;
+  
+  }
+  
+  .footer-ABOUT a/* ABOUT US FOOTER ITEMS*/ {
+  
+    text-decoration: none;
+  
+    color: white;
+  
+    font-size: 20px;
+  
+  }
+  
+  .footer-ABOUT h3/*ABOUT US FOOTER HEADING */ {
+  
+    font-size: 20px;
+  
+    color: white;
+  
+    padding: 10px;
+  
+  }
+  
+  .footer-ABOUT a:hover/* ABOUT US FOOTER LINKS ON HOVERING */ {
+  
+    color: #98fb98;
+  
+    margin: 15px;
+  
+  }
+  
+  
+  
+  @media (max-width: 800px) {
+  
+    .ABOUT_second/*ABOUT US BLOG-CONTENT*/ {
+  
+      background-image: none;
+  
+      padding-top: 10px;
+  
+    }
+  
+    .links /*ABOUT US BLOG-CATEOGRIES*/ {
+  
+      height: 625px;
+  
+    }
+  
+    .footer-ABOUT/* ABOUT US FOOTER STYLING*/ {
+  
+      display: block;
+  
+    }
+  
+    .footer-ABOUT ul/* ABOUT US FOOTER list*/ {
+  
+      display: block;
+  
+    }
+  
+  }
+  
+  
