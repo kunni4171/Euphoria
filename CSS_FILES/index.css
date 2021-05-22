@@ -1,0 +1,318 @@
+body/*INDEX BODY*/ {
+  font-family: "Georgia", Times New Roman, Times, serif;
+  padding: 0;
+  margin: 2px;
+  background-color: #98fb98;
+  font-size: 15px;
+  border: 3px solid #98fb98;
+}
+
+/*NAVBAR INDEX */
+header {
+  background-color: darkslategrey;
+
+  color: white;
+  padding-top: 24px;
+  min-height: 60px;
+}
+/* INDEX HEADER &CATEOGRIES*/
+header a,
+.links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+/* INDEX HEADER */
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+/*INDEX HEADER FONT STYLING*/
+.container h1,
+.container p,
+.container i {
+  padding-bottom: 25px;
+}
+/* INDEX BAR-STYLING*/
+.container i {
+  font-size: 30px;
+  cursor: pointer;
+  flex: 1;
+  padding-left: 25px;
+}
+/* INDEX HEADER LIST*/
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+/*INDEX HEADER ITEMS*/
+header ul li {
+  padding: 10px;
+  padding-bottom: 10px;
+}
+/* INDEX WORDS COLOURED*/
+.color {
+  color: #98fb98;
+}
+/*INDEX WORDS ON HOVERING*/
+.color:hover {
+  color: #f4f5e2;
+}
+/* INDEX CATEOGRIES & NAV ITEMS ON HOVERING*/
+header a:hover,
+.links a:hover {
+  color: #0f0;
+}
+/*  INDEX FONT ICONS ON HOVERING*/
+.icons .color i {
+  color: #98fb98;
+}
+/* INDEX MAIN_HEAD STYLING*/
+.main_head {
+  background-color: #191919;
+ 
+  min-height: 520px;
+  margin-top: -20px;
+  text-align: center;
+  color: #98fb98;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+/* INDEX MAIN_HEAD P STYLING*/
+.main_head p {
+  font-size: 23px;
+  color: #98fb98;
+}
+/* INDEX MAIN_HEAD H1 STYLING*/
+.main_head h1 {
+  font-size: 43px;
+  color: #98fb98;
+}
+/* INDEX MAIN_HEAD H3 STYLING*/
+.main_head h3 {
+  font-size: 20px;
+  color: #f18973;
+  padding-bottom: 20px;
+}
+
+/* INDEX FONT ICONS*/
+section .icons {
+  position: relative;
+  width: 66%;
+  color: #98fb98;
+  font-size: 70px;
+}
+/* INDEX FONT ICONS STYLING*/
+section .icons i {
+  padding: 0, 3px;
+  transition: 0.5s;
+  transition-delay: 0.3s;
+
+  user-select: none;
+  color: #191919;
+}
+/* INDEX FONT ICONS ON HOVERING*/
+
+section .icons i:hover {
+  color: #98fb98;
+  margin: 15px;
+}
+/* INDEX BLOG-CATEOGRIES*/
+.links {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  line-height: 2.5em;
+  width: 30%;
+  height: 800px;
+  background-color: #191919;
+  opacity: 0.8;
+  border: #98fb98 3px solid;
+  display: none;
+  flex-direction: column;
+}
+/* INDEX CATEOGRIES STYLING*/
+
+.links li {
+  border-bottom: 3px solid #98fb98;
+  padding-top: 18px;
+}
+/* INDEX BLOG-INFO */
+.first {
+  width: 100%;
+  padding-top: 200px;
+  background-color: #f18973;
+  min-height: 320px;
+  border-color: 5px solid darkslategray;
+  background-image: url("../IMAGES/friends.png");
+  background-size: 480px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+/* INDEX BLOG-INFO */
+.second {
+  width: 100%;
+  padding-top: 200px;
+  background-color: #187bcd;
+  min-height: 300px;
+  border-color: 5px solid darkslategray;
+  background-image: url("../IMAGES/shef.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 380px;
+}
+/* INDEX CONTENT STYLING*/
+.content-sec,
+.content-fourth {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 30px;
+  margin-top: -40px;
+}
+/* INDEX CONTENT STYLING*/
+.second h3,
+.fourth h3 {
+  margin-bottom: 0px;
+  margin-right: 16px;
+  color: white;
+  font-size: 43px;
+  width: 55%;
+}
+/* INDEX CONTENT STYLING */
+.second p,
+.fourth p {
+  line-height: 1.5;
+  width: 55%;
+  color: white;
+  font-size: 23px;
+  padding: 10px;
+}
+/* INDEX BLOG-INFO */
+
+.third {
+  width: 100%;
+  padding-top: 200px;
+  background-color: #9b2380;
+  border-color: 5px solid darkslategray;
+  min-height: 300px;
+  background-image: url("../IMAGES/travelbag.png");
+  background-size: 280px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+/* INDEX CONTENT STYLING*/
+.content-third,
+.content-first {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 30px;
+  margin-top: -40px;
+}
+/* INDEX CONTENT STYLING */
+.third h3,
+.first h3 {
+  margin-bottom: 0px;
+  margin-left: 16px;
+  color: white;
+  font-size: 43px;
+  width: 55%;
+}
+/* INDEX CONTENT-STYLING*/
+.third p,
+.first p {
+  line-height: 1.5;
+  width: 55%;
+  color: white;
+  font-size: 23px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+/* INDEX BLOG-INFO */
+
+.fourth {
+  width: 100%;
+  padding-top: 200px;
+  background-color:#1ecbe1;
+
+  min-height: 300px;
+  background-image: url("../IMAGES/alumni.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 375px;
+}
+
+/* INDEX FOOTER STYLING*/
+.footer-index {
+  padding-top: 1px;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  font-size: 13px;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color:darkslategray;
+  min-height:5px;
+}
+/* INDEX footer heading*/
+.footer-index h3 {
+  color:white;
+  padding: 10px;
+  font-size: 20px;
+}
+/* INDEX FOOTER list*/
+.footer-index ul {
+  display: flex;
+  column-gap: 8px;
+}
+/* INDEX FOOTER ITEMS*/
+.footer-index a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+/* INDEX FOOTER LINKS ON HOVERING */
+.footer-index a:hover {
+  color: #98fb98;
+  margin: 15px;
+}
+
+@media (max-width: 800px) {
+  /* INDEX BLOG-INFO */
+  .first,
+  .second,
+  .third,
+  .fourth {
+    background-image: none;
+  }
+
+  /* INDEX FOOTER ITEMS*/
+  .footer-index {
+    display: block;
+  }
+  /*INDEX FOOTER LIST*/
+  .footer-index ul {
+    display: block;
+  }
+  /* INDEX BLOG-CATEOGRIES*/
+  .links {
+    height: 625px;
+  }
+}

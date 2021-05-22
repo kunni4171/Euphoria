@@ -1,0 +1,197 @@
+body/*covid  BODY*/ {
+    font-family: "Georgia", Times New Roman, Times, serif;
+    padding: 0;
+    margin: 2px;
+    background-color: #191919;
+    font-size: 15px;
+    border: 3px solid #98fb98;
+  }
+  
+  .container/*covid  HEADER*/ {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header
+    /*covid  NAVBAR */ {
+    background-color: darkslategrey;
+  
+    color: white;
+    padding-top: 24px;
+    min-height: 60px;
+  }
+  
+  header a,
+    .links a/* covid  HEADER &CATEOGRIES*/ {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .container i/* covid  BAR-STYLING*/ {
+    font-size: 30px;
+    cursor: pointer;
+    flex: 1;
+    padding-left: 25px;
+  }
+  /*covid HEADER FONT STYLING*/
+  .container h1,
+  .container p,
+  .container i {
+    padding-bottom: 25px;
+  }
+  /*covid  HEADER LIST*/
+  header ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style: none;
+  }
+  /*covid HEADER ITEMS*/
+  header ul li {
+    padding: 10px;
+    padding-bottom: 10px;
+  }
+  /* covid WORDS COLOURED*/
+  .color {
+    color: #98fb98;
+  }
+  /*covid  PAGE WORDS ON HOVERING*/
+  .color:hover {
+    color: #f4f5e2;
+  }
+  /* covid PAGE CATEOGRIES & NAV ITEMS ON HOVERING*/
+  header a:hover,
+  .links a:hover {
+    color: #0f0;
+  }
+  /*covid  ABOUT_HEAD STYLING*/
+  .covid_head {
+    background-color: #191919;
+    min-height: 500px;
+    margin-top: -20px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+  }
+  /*covid  ABOUT_HEAD H1 STYLING*/
+  .covid_head h1 {
+    font-size: 43px;
+    color: #98fb98;
+    text-align: center;
+  }
+  .links/*covid PAGE BLOG-CATEOGRIES*/ {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    line-height: 2.5em;
+    width: 30%;
+    height: 600px;
+    background-color: #191919;
+    opacity: 0.8;
+    border: #98fb98 3px solid;
+  }
+  .links li/* covid  CATEOGRIES STYLING*/ {
+    border-bottom: 3px solid #98fb98;
+    padding-top: 18px;
+    list-style: none;
+  }
+  
+  /* covid  CONTENT*/
+  .covid_second {
+    width: 99.9%;
+    padding-top: 80px;
+    background-color: #f18973;
+  
+    min-height: 500px;
+    background-image: url("../IMAGES/COVID.png");
+    background-size: 640px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .covid_second h3/* covid  BLOG-CONTENT H3 STYLING */ {
+    margin-bottom: 0px;
+    margin-left: 16px;
+    color: white;
+    font-size: 43px;
+    width: 55%;
+  }
+  .covid_second p/* covid  BLOG-CONTENT P STYLING*/ {
+    line-height: 1.5;
+    width: 55%;
+    color: white;
+    font-size: 23px;
+    padding: 10px;
+    padding-bottom: 100px;
+  }
+  .content-covid -second {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 30px;
+    margin-top: 20px;
+  }
+  
+  .footer-covid /* covid FOOTER STYLING*/ {
+    padding-top: 1px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: space-between;
+    background-color: darkslategray;
+    min-height: 50x;
+  }
+  .footer-covid  ul/* covid  FOOTER list*/ {
+    display: flex;
+    column-gap: 8px;
+  }
+  .footer-covid  a/* covid  FOOTER ITEMS*/ {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  .footer-covid  h3/*covid  FOOTER HEADING */ {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+  }
+  .footer-covid  a:hover/* covid  FOOTER LINKS ON HOVERING */ {
+    color: #98fb98;
+    margin: 15px;
+  }
+  .FOOTER-gratitude{
+      background:#2B547E;
+      color:black;
+      padding:30px;
+      font-size:20px;
+      text-align:center;
+      
+  }
+  
+  @media (max-width: 800px) {
+    .covid_second/*covid  BLOG-CONTENT*/ {
+      background-image: none;
+      padding-top: 10px;
+    }
+    .links /*covid  BLOG-CATEOGRIES*/ {
+      height: 625px;
+    }
+    .footer-covid /* covid  FOOTER STYLING*/ {
+      display: block;
+    }
+    .footer-covid  ul/* covid  FOOTER list*/ {
+      display: block;
+    }
+  }
+  

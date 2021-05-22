@@ -1,0 +1,384 @@
+body/*PRIVACY BODY*/ {
+
+    font-family: "Georgia", Times New Roman, Times, serif;
+  
+    padding: 0;
+  
+    margin: 2px;
+  
+    background-color: #191919;
+  
+    font-size: 15px;
+  
+    border: 3px solid #98fb98;
+  
+  }
+  
+  
+  
+  .container/*PRIVACY HEADER*/ {
+  
+    width: 90%;
+  
+    margin: auto;
+  
+    overflow: hidden;
+  
+    min-height: 100px;
+  
+    display: flex;
+  
+    flex-direction: row;
+  
+    align-items: center;
+  
+    justify-content: space-between;
+  
+  }
+  
+  header
+  
+    /*PRIVACY NAVBAR */ {
+  
+    background-color: darkslategrey;
+  
+  
+  
+    color: white;
+  
+    padding-top: 24px;
+  
+    min-height: 60px;
+  
+  }
+  
+  
+  
+  header a,
+  
+    .links a/* PRIVACY HEADER &CATEOGRIES*/ {
+  
+    color: white;
+  
+    text-decoration: none;
+  
+    font-size: 20px;
+  
+  }
+  
+  .container i/* PRIVACY BAR-STYLING*/ {
+  
+    font-size: 30px;
+  
+    cursor: pointer;
+  
+    flex: 1;
+  
+    padding-left: 25px;
+  
+  }
+  
+  /*PRIVACY HEADER FONT STYLING*/
+  
+  .container h1,
+  
+  .container p,
+  
+  .container i {
+  
+    padding-bottom: 25px;
+  
+  }
+  
+  /* PRIVACY HEADER LIST*/
+  
+  header ul {
+  
+    margin: 0px;
+  
+    padding: 0px;
+  
+    display: flex;
+  
+    list-style: none;
+  
+  }
+  
+  /*PRIVACY HEADER ITEMS*/
+  
+  header ul li {
+  
+    padding: 10px;
+  
+    padding-bottom: 10px;
+  
+  }
+  
+  /* PRIVACY  WORDS COLOURED*/
+  
+  .color {
+  
+    color: #98fb98;
+  
+  }
+  
+  /*PRIVACY PAGE WORDS ON HOVERING*/
+  
+  .color:hover {
+  
+    color: #f4f5e2;
+  
+  }
+  
+  /* PRIVACY PAGE CATEOGRIES & NAV ITEMS ON HOVERING*/
+  
+  header a:hover,
+  
+  .links a:hover {
+  
+    color: #0f0;
+  
+  }
+  
+  /* PRIVACY PRIVACY_HEAD STYLING*/
+  
+  .PRIVACY_head {
+  
+    background-color: #191919;
+  
+    min-height: 500px;
+  
+    margin-top: -20px;
+  
+    padding-top: 35px;
+  
+    padding-bottom: 10px;
+  
+  }
+  
+  /*PRIVACY PRIVACY_HEAD H1 STYLING*/
+  
+  .PRIVACY_head h1 {
+  
+    font-size: 43px;
+  
+    color: #98fb98;
+  
+    text-align: center;
+  
+  }
+  
+  .links/* PRIVACY PAGE BLOG-CATEOGRIES*/ {
+  
+    display: none;
+  
+    flex-direction: column;
+  
+    position: absolute;
+  
+    top: 0;
+  
+    right: 0;
+  
+    padding: 20px;
+  
+    line-height: 2.5em;
+  
+    width: 30%;
+  
+    height: 600px;
+  
+    background-color: #191919;
+  
+    opacity: 0.8;
+  
+    border: #98fb98 3px solid;
+  
+  }
+  
+  .links li/* PRIVACY CATEOGRIES STYLING*/ {
+  
+    border-bottom: 3px solid #98fb98;
+  
+    padding-top: 18px;
+  
+    list-style: none;
+  
+  }
+  img{
+      height:500px;
+      width:400px;
+  }
+  
+  
+  
+  /* PRIVACY CONTENT*/
+  
+  
+  
+  .PRIVACY_second {
+
+    
+    width: 99.9%;
+  
+    padding-top: 90px;
+  
+    background-color: #f18973;
+  
+  
+  
+    min-height: 340px;
+  
+    background-image: url("../IMAGES/PRIVACY.png");
+  
+    background-size: 400px;
+  
+    background-repeat: no-repeat;
+  
+    background-position: right;
+  
+  }
+  
+  .PRIVACY_second h3/* PRIVACY BLOG-CONTENT H3 STYLING */ {
+  
+    margin-bottom: 0px;
+  
+    margin-left: 16px;
+  
+    color: white;
+  
+    font-size: 43px;
+  
+    width: 55%;
+  
+  }
+  
+  .PRIVACY_second p/* PRIVACY BLOG-CONTENT P STYLING*/ {
+  
+    line-height: 1.5;
+  
+    width: 55%;
+  
+    color: white;
+  
+    font-size: 23px;
+  
+    padding: 10px;
+  
+    padding-bottom: 100px;
+  
+  }
+  
+  .content-PRIVACY-second {
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: flex-start;
+  
+    justify-content: flex-start;
+  
+    padding-left: 30px;
+  
+    margin-top: 20px;
+  
+  }
+  
+  
+  
+  .footer-PRIVACY/* PRIVACY FOOTER STYLING*/ {
+  
+    padding-top: 1px;
+  
+    display: flex;
+  
+    align-items: center;
+  
+    padding-top: 20px;
+  
+    padding-bottom: 20px;
+  
+    font-size: 13px;
+  
+    padding-left: 0px;
+  
+    padding-right: 0px;
+  
+    justify-content: space-between;
+  
+    background-color: darkslategray;
+  
+    min-height: 50x;
+  
+  }
+  
+  .footer-PRIVACY ul/* PRIVACY FOOTER list*/ {
+  
+    display: flex;
+  
+    column-gap: 8px;
+  
+  }
+  
+  .footer-PRIVACY a/* PRIVACY FOOTER ITEMS*/ {
+  
+    text-decoration: none;
+  
+    color: white;
+  
+    font-size: 20px;
+  
+  }
+  
+  .footer-PRIVACY h3/*PRIVACY FOOTER HEADING */ {
+  
+    font-size: 20px;
+  
+    color: white;
+  
+    padding: 10px;
+  
+  }
+  
+  .footer-PRIVACY a:hover/* PRIVACY FOOTER LINKS ON HOVERING */ {
+  
+    color: #98fb98;
+  
+    margin: 15px;
+  
+  }
+  
+  
+  
+  @media (max-width: 800px) {
+  
+    .PRIVACY_second/*PRIVACY BLOG-CONTENT*/ {
+  
+      background-image: none;
+  
+      padding-top: 10px;
+  
+    }
+  
+    .links /*PRIVACY BLOG-CATEOGRIES*/ {
+  
+      height: 625px;
+  
+    }
+  
+    .footer-PRIVACY/* PRIVACY FOOTER STYLING*/ {
+  
+      display: block;
+  
+    }
+  
+    .footer-PRIVACY ul/* PRIVACY FOOTER list*/ {
+  
+      display: block;
+  
+    }
+  
+  }
+  
+  
