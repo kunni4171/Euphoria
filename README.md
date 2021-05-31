@@ -1,6 +1,6 @@
 WOC 2021 || MULTIPROCESSING TECHNERDS
 
-This website will provide the MNNITIANS and alumnis a safe place where they can explore ,express,improve upon their
+This website will provide the MNNITIANS and Alumnis a safe place where they can explore ,express,improve upon their
 skills.Introverts can open up and ask for help or provide guidance anonymously.
 
 MENTOR-
